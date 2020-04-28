@@ -1,0 +1,1 @@
+It doesn't work because the remainder changes vastly for both operations. For example take the total to equal 19. Then total - 1 = 18. and 18%9 = 0, whereas if the total is 19 then 19%10 = 9. 

@@ -1,0 +1,6 @@
+int i = 0;
+int *p = &i;
+
+*p is an alias for i;
+*&i is an alias for i;
+

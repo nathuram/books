@@ -1,0 +1,9 @@
+char checker_board[8][8]
+
+	for (a = 0; a < 8; a++)
+		for (b=0; b<8; b++)
+			if ( (a+b)%2 == 0)
+				checker_board[a][b] = 'B';
+			else
+				checker_board[a][b] = 'R';
+	

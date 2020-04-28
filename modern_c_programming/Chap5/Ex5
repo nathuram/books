@@ -1,0 +1,1 @@
+Yes, the statement is legal, because the relational operators are left associative. When n = 10, this will print n is between 1 and 10.

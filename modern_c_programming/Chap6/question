@@ -1,0 +1,7 @@
+suppose we declare an i
+
+then in a for loop we use the control statement like this
+
+(int j = 0, i = 5)
+
+in this case, will we get the previous i, or a will a new i be declared ?

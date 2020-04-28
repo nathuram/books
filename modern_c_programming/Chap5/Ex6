@@ -1,0 +1,1 @@
+Yes, it is legal, because the 1-10 gets evaluated before the == (arithmetic operators have greater precedence than equality operators). If n = 5, the statement will do nothing, because 5 != -9

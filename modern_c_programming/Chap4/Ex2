@@ -1,0 +1,7 @@
+No, they won't always have the same value. Here is why.
+
+In case 1 { (-i)/j }, the parentheses are evaluated first. Thus giving us the negative value of i, which may then be rounded up or down depending upon the standard of C being used. 
+
+In case 2 {-(i/j)}, the parentheses are evaluated first, giving us an integer rounded down, which is then made negative. 
+
+If we were to store the values obtained into two new variable a and b, respectively, then the two variables could differ by 1.
